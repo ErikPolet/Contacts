@@ -1,0 +1,135 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #F5F5F5;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+th {
+    padding: 10px;
+    margin: 100px;
+    text-align: start;
+}
+
+td {
+    padding: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto 0;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.logo img {
+    height: 3rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.search input[type="text"] {
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+.search button[type="submit"] {
+    padding: 0.5rem 0.8rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+
+.search button:hover {
+    cursor: pointer;
+}
+
+
+/* Table styles */
+.tableClass {
+    margin-top: 2rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableClass th,
+.tableClass td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tableClass th {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.tableClass td {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.tableClass tbody tr:hover:not(.header) {
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+
+.profile-image {
+    padding-left: 1px;
+    padding-top: 3px;
+    background-color: black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.hidden {
+    display: none;
+}
